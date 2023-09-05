@@ -44,7 +44,7 @@ Considerações:
 O id do formulário (facilita_custom_selector) não pode ser alterado, caso contrário será necessário configurar novamente o mapeamento dos campos.
 
 ```php
-use Agenciafmd\Facilita\Jobs\SendConversionsToFacilitaWebhook;
+use Agenciafmd\Facilita\Jobs\SendConversionsToFacilita;
 use Illuminate\Support\Facades\Cookie;
 
 $data['email'] = 'irineu@fmd.ag';
@@ -59,7 +59,7 @@ $data['facilita_custom_page'] = 'Título da página';
 $data['facilita_custom_url'] = 'http://www.urldapagina.com.br';
 $data['facilita_custom_selector'] = 'idformulario';
 
-SendConversionsToFacilitaWebhook::dispatch($data)
+SendConversionsToFacilita::dispatch($data)
     ->delay(5)
     ->onQueue('low');
 ```
