@@ -1,0 +1,32 @@
+{
+    "name": "agenciafmd/laravel-facilita",
+    "description": "Integração com o CRM Facilita",
+    "homepage": "https://github.com/agenciafmd/laravel-facilita",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Seiji",
+            "email": "carlos@fmd.ag",
+            "homepage": "https://fmd.ag/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "6.*|7.*|8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Agenciafmd\\Facilita\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agenciafmd\\Facilita\\Providers\\FacilitaServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
