@@ -25,7 +25,7 @@ o seu FormId estara nessa posição também, que no seu .env sera o valor de ```
 
 e essa opção **API para desenvolveres** que esta circulada ira abrir esse modal
 
-![Modal > Integrações](https://github.com/agenciafmd/laravel-facilita/raw/master/docs/print-3.jpg "Modal > Integrações")
+![Modal > Integrações](https://github.com/agenciafmd/laravel-facilita/raw/master/docs/print-4.jpg "Modal > Integrações")
  
 os campos de **URL e metodo** serão dos valores para o .env
 
