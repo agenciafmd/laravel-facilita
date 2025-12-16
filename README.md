@@ -32,7 +32,7 @@ os campos de **URL e metodo** serão dos valores para o .env
 ## Instalação
 
 ```bash
-composer require agenciafmd/laravel-facilita:dev-v11.x-dev
+composer require agenciafmd/laravel-facilita:v11.x-dev
 ```
 
 Colocamos esta url no nosso .env
